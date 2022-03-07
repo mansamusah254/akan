@@ -9,6 +9,7 @@ var day = [
   ]
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"]
+//   function for the calculation
 function dateOfBirth(){
     var day = document.getElementById("day").value
     var dd=parseInt(day)
@@ -19,4 +20,8 @@ function dateOfBirth(){
     var cc=parseInt(year.substr(0,2));
   var day=parseInt(((cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10))+ dd)%7;
   var gender=document.getElementById("gender").value
+//   validation
+if (dd<=0||dd>31||dd ==""){
+    alert('Enter a valid date');
+}
 }
