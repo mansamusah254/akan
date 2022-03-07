@@ -19,10 +19,10 @@
    * INPUT; the birth year"
    * INPUT; "select the gender"
    * OUTPUT; "the Akan Name according to the users input"
-   2. Displays an error message if date is incorrect 
+2. Displays an error message if date is incorrect 
    * INPUT; ""
    * OUTPUT; "displays and error message"
-   3. Displays an error message if gender is not selected
+3. Displays an error message if gender is not selected
     * INPUT; ""
     * OUTPUT; "displays and error message"
 ### Errors in the Code
