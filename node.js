@@ -30,4 +30,7 @@ else if(mm<1 ||mm>12 ||mm==2 && dd>29 ||mm==""){
 else if (year<=0 ||year==""){
     alert('Enter a valid year')
 }
+if(gender==="male"){
+    alert('Your Akan name is '+ maleNames[day]);
+}
 }
