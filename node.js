@@ -27,4 +27,7 @@ if (dd<=0||dd>31||dd ==""){
 else if(mm<1 ||mm>12 ||mm==2 && dd>29 ||mm==""){
     alert( 'Enter a valid month');
 }
+else if (year<=0 ||year==""){
+    alert('Enter a valid year')
+}
 }
