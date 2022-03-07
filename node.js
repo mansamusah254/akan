@@ -24,4 +24,7 @@ function dateOfBirth(){
 if (dd<=0||dd>31||dd ==""){
     alert('Enter a valid date');
 }
+else if(mm<1 ||mm>12 ||mm==2 && dd>29 ||mm==""){
+    alert( 'Enter a valid month');
+}
 }
