@@ -33,4 +33,7 @@ else if (year<=0 ||year==""){
 if(gender==="male"){
     alert('Your Akan name is '+ maleNames[day]);
 }
+else if( gender==='female'){
+    alert('Your Akan name is '+ femaleNames[day]);
+}
 }
