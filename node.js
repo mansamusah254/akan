@@ -11,6 +11,8 @@ var day = [
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"]
 function dateOfBirth(){
     var day = document.getElementById("day").value
-    var dd=parseInt(DelayNode)
-
+    var dd=parseInt(day)
+    var month = document.getElementById("month").value
+    var mm=parseInt(month)
+    var year=document.getElementById("year").value
 }
