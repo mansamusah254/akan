@@ -12,3 +12,19 @@
 * Css Extensions 
 * HTML Extensions 
 
+### Behaviour Driven Development
+1. In the Second section there is a form where you will be required to:
+   * INPUT; "the birth date" 
+   * INPUT; "the birth month"
+   * INPUT; the birth year"
+   * INPUT; "select the gender"
+   * OUTPUT; "the Akan Name according to the users input"
+   2. Displays an error message if date is incorrect 
+   * INPUT; ""
+   * OUTPUT; "displays and error message"
+   3. Displays an error message if gender is not selected
+    * INPUT; ""
+    * OUTPUT; "displays and error message"
+### Errors in the Code
+* for the month of February the function does not seem to work if the date exceeds 29th
+
