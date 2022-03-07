@@ -5,7 +5,7 @@ body{
     background-size: cover;
 background-attachment: fixed;
 background-size: cover;
-    font-size: 25px;
+    font-size: x-large;
     font-weight: 440px;
     color: aliceblue;
     background-repeat: no-repeat;
@@ -13,13 +13,13 @@ background-size: cover;
 }
 h1{
     color: rgb(254, 255, 254);
-    font-size: 450px;
+    font-size: large;
     margin-left: 200px;
 }
 .section{
     color: antiquewhite;
     margin-left: 65px;
-    font-size: 25px;
+    font-size: large;
 }
 .container{
     color: antiquewhite;
