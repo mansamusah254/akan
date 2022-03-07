@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://thumbs.dreamstime.com/b/blue-map-africa-textured-background-use-as-wallpaper-147504595.jpg);
+    background-image: url(https://images.unsplash.com/photo-1584968124544-d10ce10dd21f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBhbmQlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80);
     font-size: 25px;
     font-weight: 440px;
     color: aliceblue;
@@ -13,6 +13,7 @@ h1{
 }
 .section{
     color: antiquewhite;
+    margin-left: 65px;
 }
 .container{
     color: antiquewhite;
